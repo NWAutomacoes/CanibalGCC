@@ -14,7 +14,7 @@
 #define por 10 //Quantidade de porções que o cozinheiro faz
 #define numCaniba 5 //Quantidade de canibais 
 #define tempCoz 5 //Tempo para cozinhar em segundos
-#define tempCome 0 //Tempo que o canibal demora para comer em segundos
+#define tempCome 1 //Tempo que o canibal demora para comer em segundos
 int semIni = 10; //Quantidade de porções iniciais
 //SQL LITE
 pthread_mutex_t coz =     PTHREAD_MUTEX_INITIALIZER;

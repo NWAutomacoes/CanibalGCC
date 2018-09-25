@@ -16,7 +16,7 @@
 #define tempCoz 5 //Tempo para cozinhar em segundos
 #define tempCome 1 //Tempo que o canibal demora para comer em segundos
 int semIni = 10; //Quantidade de porções iniciais
-//SQL LITE
+
 pthread_mutex_t coz =     PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t fila =    PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t servh =   PTHREAD_MUTEX_INITIALIZER;
